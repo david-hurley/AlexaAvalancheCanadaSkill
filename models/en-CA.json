@@ -1,0 +1,44 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my avalanche briefing",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MyLocationIsIntent",
+                    "slots": [
+                        {
+                            "name": "Location",
+                            "type": "AMAZON.Color"
+                        }
+                    ],
+                    "samples": [
+                        "give me the avalanche forecast for {Location}",
+                        "what is the forecast for {Location}",
+                        "what is the avalanche summary for {Location}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
